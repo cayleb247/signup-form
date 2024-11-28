@@ -94,6 +94,10 @@ input:invalid {
     border: 1px solid red;
 }
 
+input:focus {
+    border: 1px solid blue;
+}
+
 p {
     color: white;
     font-weight: 300;
