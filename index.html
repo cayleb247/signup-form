@@ -12,8 +12,11 @@
 <body>
     
     <div class="form-container">
-        <h1>Account Sign Up</h1>
-        <h2>Share your leaf-raking services today!</h2>
+        <div class="header-container">
+            <h1>Account Sign Up</h1>
+            <h2>Share your leaf-raking services today!</h2>
+        </div>
+        
 
         <form action="post">
             <fieldset>
@@ -27,7 +30,7 @@
                 </div>
                 
             </fieldset>
-            <fieldset>
+            <fieldset class="vert">
                 <div class="input-container">
                     <label for="email" required>Email</label>
                     <input type="email" name="email">
@@ -56,10 +59,12 @@
 
         <button type="submit">Sign Up</button>
 
+        <h3>Already have an account? <a href="google.com">Log in</a></h3>
+
 
     </div>
 
-    <p>Photo</p>
+    <p>Photo by <a href="https://unsplash.com/@quentin">quentin</a> on <a href="https://unsplash.com">Unsplash</a></p>
     
     
 </body>
